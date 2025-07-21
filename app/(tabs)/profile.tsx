@@ -1,10 +1,12 @@
+import React from 'react';
 import { Text, View } from "react-native";
-export default function Index() {
+
+const profile = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-4xl font-bold text-light-200">
-        Welcome to CineFlix!
-      </Text>
+      <Text>"Profile Page for User"</Text>
     </View>
   );
-}
+};
+
+export default profile;
